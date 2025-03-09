@@ -1,2 +1,3 @@
 create new dev/ios branch
 change nickname
+change nickname back
