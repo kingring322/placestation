@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		8C4F03892D7F2F8A008E5C48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */; };
 		8C4F038D2D7F3510008E5C48 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */; };
+		8C4F039A2D7F6182008E5C48 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F03992D7F6182008E5C48 /* UIApplicationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4F03692D7EEA65008E5C48 /* placestation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placestation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		8C4F03992D7F6182008E5C48 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -70,6 +72,7 @@
 				8C4F038E2D7F459E008E5C48 /* places */,
 				8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */,
 				8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */,
+				8C4F03992D7F6182008E5C48 /* UIApplicationExtension.swift */,
 				8C4F03812D7EEF1F008E5C48 /* navigation */,
 				8C4F03822D7EEF43008E5C48 /* delegates */,
 				8C4F03832D7EEF54008E5C48 /* resources */,
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4F038D2D7F3510008E5C48 /* TabBarItem.swift in Sources */,
+				8C4F039A2D7F6182008E5C48 /* UIApplicationExtension.swift in Sources */,
 				8C4F03892D7F2F8A008E5C48 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

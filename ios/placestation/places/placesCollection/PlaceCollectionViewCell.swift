@@ -50,7 +50,7 @@ class PlaceCollectionViewCell: UICollectionViewCell {
     //setup cell for place collection
     final func setup(_ title: String, _ subtitle: String, _ imageUrl: URL?) {
         if let imageUrl {
-            
+            //download image here
         }
         self.titleLabel.text = title
         self.subtitleLabel.text = subtitle

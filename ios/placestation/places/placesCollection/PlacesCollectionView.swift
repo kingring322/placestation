@@ -71,4 +71,9 @@ extension PlacesCollectionView: UICollectionViewDataSource {
         cell.setup(self.data[indexPath.item], "\(indexPath.item)", nil)
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let placeCard = PlaceCardViewController()
+        UIApplication.shared.topNavigationController()?.pushViewController(placeCard, animated: true)
+    }
 }
