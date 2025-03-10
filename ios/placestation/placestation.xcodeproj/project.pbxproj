@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C4F03872D7F2F57008E5C48 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F03862D7F2F57008E5C48 /* PlacesViewController.swift */; };
 		8C4F03892D7F2F8A008E5C48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */; };
 		8C4F038D2D7F3510008E5C48 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4F03692D7EEA65008E5C48 /* placestation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placestation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C4F03862D7F2F57008E5C48 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
 		8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +46,11 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		8C4F038E2D7F459E008E5C48 /* places */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = places;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +67,9 @@
 		8C4F03602D7EEA65008E5C48 = {
 			isa = PBXGroup;
 			children = (
+				8C4F038E2D7F459E008E5C48 /* places */,
 				8C4F038C2D7F3510008E5C48 /* TabBarItem.swift */,
 				8C4F03882D7F2F8A008E5C48 /* ProfileViewController.swift */,
-				8C4F03862D7F2F57008E5C48 /* PlacesViewController.swift */,
 				8C4F03812D7EEF1F008E5C48 /* navigation */,
 				8C4F03822D7EEF43008E5C48 /* delegates */,
 				8C4F03832D7EEF54008E5C48 /* resources */,
@@ -101,6 +104,7 @@
 				8C4F03812D7EEF1F008E5C48 /* navigation */,
 				8C4F03822D7EEF43008E5C48 /* delegates */,
 				8C4F03832D7EEF54008E5C48 /* resources */,
+				8C4F038E2D7F459E008E5C48 /* places */,
 			);
 			name = placestation;
 			packageProductDependencies = (
@@ -159,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C4F038D2D7F3510008E5C48 /* TabBarItem.swift in Sources */,
-				8C4F03872D7F2F57008E5C48 /* PlacesViewController.swift in Sources */,
 				8C4F03892D7F2F8A008E5C48 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
